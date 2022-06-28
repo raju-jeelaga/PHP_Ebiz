@@ -91,8 +91,8 @@ require_once('Include/DB.php');
 					<th><?php echo $Desig;?></th>
 					<th><?php echo $Salary;?></th>
 					<th><?php echo $Address;?></th>
-					<th>Update</th>
-					<th>Delete</th>
+					<th><a href="Update.php?id=<?php echo $ID; ?>">Update</a></th>
+					<th><a href="Delete.php?id=<?php echo $ID; ?>">Delete</a></th>
 				</tr>
 				<?php } ?>
 		</table>
